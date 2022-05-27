@@ -14,8 +14,8 @@ In today's world, where everyone is striving for success, many people are becomi
 2. It gives the user the option of proposing movies or songs based on the emotion.
 3. If the user wants to watch movies or listen to music, a selection of movies or songs that match their mood is offered along with the movie/song poster.
 4. When user clicks on movie which he/she wishes to watch, they will be redirected to IMDB website and for songs it redirects them to Spotify website.
-5.
-6.
+5. As a feature, there is an Animated Gallery that displays certain photos.
+6. A 3D Flipping Movies Card function has also been created to recommend movies and generate curiosity. When the user clicks on the card, it spins to show their iconic dialogue.
 
 ## How to run
 
