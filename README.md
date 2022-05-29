@@ -19,16 +19,21 @@ In today's world, where everyone is striving for success, many people are becomi
 
 ## How to run
 
-1. Create an app.py (any name) file to indicate that you are using Python.
-2. Open Git bash in terminal & type python -m venv ProjectnameEnv and then tell it only for this project by command ProjectnameEnv/Scripts/Activate.bat.
-3. Open Command Palette.. and select Python:Select Interpreter and select .\ProjectnameEnv\Scripts\python.exe path.
-4. After cloning the project with the command - git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) in Git bash.
-5. Use the command **pip install -r requirements.txt**, install all of the packages listed in requirements.txt
-6. To execute the project, open the app.py file in a terminal and type **python -u "directory of the app.py"** OR **python -u app.py.**
+**For creating virtual environment follow the steps:**
+
+* Create an app.py (any name) file to indicate that you are using Python.
+* Open Git bash in terminal & type python -m venv ProjectnameEnv and then tell it only for this project by command ProjectnameEnv/Scripts/Activate.bat.
+* Open Command Palette.. and select Python:Select Interpreter and select .\ProjectnameEnv\Scripts\python.exe path.
+  ---
+* After cloning the project with the command - git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) in Git bash.
+* Use the command **pip install -r requirements.txt**, install all of the packages listed in requirements.txt
+* To execute the project, open the app.py file in a terminal and type **python -u "directory of the app.py"** OR **python -u app.py.**
 
 ## How I built it and technology used
 
-Python is the programming language used to create the emotion recognition model and deploy it on the web application using flask. CV2, TensorFlow, NumPy, matplotlib, and other libraries are also utilized. The model is build using the transfer learning approach for which MobileNet model is used. The FER-2013 dataset, which comprises around 35000 photos, was utilized for model training and validation. This model is deployed on a website created with HTML and CSS using the flask framework. Based on the seven emotions, a new dataset of movies and music was constructed. The data from movies and songs was utilized to create the various templates that correlate to various emotions.
+Python is the programming language used to create the emotion recognition model and deploy it on the web application using flask. CV2, TensorFlow, NumPy, matplotlib, and other libraries are also utilized.
+
+The model is build using the transfer learning approach for which MobileNet model is used. The FER-2013 dataset, which comprises around 35000 photos, was utilized for model training and validation. This model is deployed on a website created with HTML and CSS using the flask framework. Based on the seven emotions, a new dataset of movies and music was constructed. The data from movies and songs was utilized to create the various templates that correlate to various emotions.
 
 ## Challenges I ran into
 
@@ -45,5 +50,3 @@ I learnt about the transfer learning approach for the model, which assisted me 
 ## Future Step for **Moodify**
 
 The precision of the model must be improved. I'll also introduce an AI-powered chat bot that will allow users to communicate their difficulties and, based on that, the Bot will recommend some solutions as well as the best appropriate movie or song for the situation.
-
-## Project Gallery
