@@ -24,7 +24,6 @@ In today's world, where everyone is striving for success, many people are becomi
 * Create an app.py (any name) file to indicate that you are using Python.
 * Open Git bash in terminal & type python -m venv ProjectnameEnv and then tell it only for this project by command ProjectnameEnv/Scripts/Activate.bat.
 * Open Command Palette.. and select Python:Select Interpreter and select .\ProjectnameEnv\Scripts\python.exe path.
-  ---
 * After cloning the project with the command - git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) in Git bash.
 * Use the command **pip install -r requirements.txt**, install all of the packages listed in requirements.txt
 * To execute the project, open the app.py file in a terminal and type **python -u "directory of the app.py"** OR **python -u app.py.**
